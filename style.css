@@ -1,11 +1,13 @@
-body {
-  background-image: url('Phobos_colour_2008.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-    background-position: center;
- } body
-@font-face { font-family: sterion; src: url('sterion-font/Sterion-BLLld.tff'); } 
+ @font-face { font-family: sterion; src: url('sterion-font/Sterion-BLLld.tff'); } 
  @font-face { font-family: sterion; font-weight: bold; src: url('sterion-font/Sterion-BLLld.ttf');}
-h1,h2,h3,h4,h5,h6,p,span, a,div,li,ul,ol {
-  font-family: sterion;
+h1, a {
+ font-family: sterion;
+ font-weight: bold;}
+body{
+    background-image: url(Phobos_colour_2008.jpg) ;
+    height: 1%;
+    background-size: cover;
+    background-repeat: repeat-y;
+
+}
+
